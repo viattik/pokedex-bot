@@ -1,0 +1,38 @@
+{
+  "name": "useless-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-telegram": "node telegram/index.js",
+    "start-watch-telegram": "nodemon telegram/index.js",
+    "start-slack": "node slack/index.js",
+    "start-watch-slack": "nodemon slack/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viattik/useless-telegram-bot.git"
+  },
+  "author": "Andrei Sierkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viattik/useless-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/viattik/useless-telegram-bot#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "lodash": "^4.17.4",
+    "node-telegram-bot-api": "^0.28.0",
+    "node-wit": "^4.3.0",
+    "pokedex-promise-v2": "^3.0.3",
+    "query-string": "^5.0.0",
+    "slackbots": "^1.1.0",
+    "sqlite3": "^3.1.9",
+    "upper-case-first": "^1.1.2"
+  },
+  "engines": {
+    "node": "6.9.3",
+    "npm": "4.0.5"
+  }
+}

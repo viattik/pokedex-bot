@@ -1,0 +1,16 @@
+.DS_Store
+*.log
+.idea
+
+node_modules
+node_modules_backup
+
+dist
+coverage
+
+e2e/reports
+env.json
+
+npm-debug.log*
+
+.eslintcache
